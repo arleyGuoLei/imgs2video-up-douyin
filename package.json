@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "gm": "^1.23.1",
+    "rd": "^2.0.1",
     "videoshow": "^0.1.12"
   },
   "devDependencies": {
