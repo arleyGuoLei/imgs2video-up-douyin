@@ -1,0 +1,11 @@
+<svg width="{{width}}" height="{{height}}">
+  <defs>
+    <pattern Units="userSpaceOnUse" id="raduisImage" x="0" y="0" width="{{width}}" height="{{height}}">
+      <image href="{{icon_img}}" x="0" y="0" width="{{width}}" height="{{height}}"></image>
+    </pattern>
+  </defs>
+  <rect
+    x="0" y="0"
+    rx="80"
+    fill="url(#raduisImage)"></rect>
+</svg>

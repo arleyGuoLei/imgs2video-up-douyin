@@ -1,0 +1,8 @@
+{
+  "extends": "standard",
+  "rules": {
+    "import/no-commonjs": 0,
+    "prefer-spread": 0,
+    "prefer-rest-params": 0
+  }
+}
