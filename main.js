@@ -4,7 +4,7 @@ const { genImages } = require('./lib/makeImgs')
 const { genVideo } = require('./lib/makeVideo')
 const { createProjectDir, dateFormat } = require('./lib/utils')
 
-const dir = '潮图7-4'
+const dir = '动漫水墨画'
 
 const fileList = []
 rd.eachFileFilterSync(path.resolve(__dirname, `./files/${dir}/`), /\.(jpg|png|jpeg|bmp)$/, function (f, s) {
@@ -18,4 +18,4 @@ async function main (title, desc, list, date = dateFormat('mm-dd')) {
   console.log('log => : main -> video', video)
 }
 
-main('七月潮图推荐', '~ 爱了爱了，一图一世界', fileList)
+main('动漫水墨潮画', '还记得和TA看的片吗？', fileList)
