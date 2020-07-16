@@ -6,9 +6,9 @@ const { genImages } = require('./lib/makeImgs')
 const { genVideo } = require('./lib/makeVideo')
 const { createProjectDir, dateFormat } = require('./lib/utils')
 
-const dir = '高考生寄语'
+const dir = '二次元萝莉'
 const title = dir
-const desc = '送自己，送孩子，送朋友！'
+const desc = '最后的亮点自己找哦~'
 
 //  -------------
 
