@@ -6,9 +6,9 @@ const { genImages } = require('./lib/makeImgs')
 const { genVideo } = require('./lib/makeVideo')
 const { createProjectDir, dateFormat } = require('./lib/utils')
 
-const dir = '二次元萝莉'
+const dir = '梦幻清纯小哥'
 const title = dir
-const desc = '最后的亮点自己找哦~'
+const desc = '宁缺毋滥？等待某人？'
 
 //  -------------
 
