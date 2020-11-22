@@ -6,9 +6,9 @@ const { genImages } = require('./lib/makeImgs')
 const { genVideo } = require('./lib/makeVideo')
 const { createProjectDir, dateFormat } = require('./lib/utils')
 
-const dir = '梦幻清纯小哥'
+const dir = '粉色桌面壁纸'
 const title = dir
-const desc = '宁缺毋滥？等待某人？'
+const desc = '粉色桌布，清新治愈 ~'
 
 //  -------------
 
